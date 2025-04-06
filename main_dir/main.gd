@@ -8,7 +8,7 @@ func _on_start_button_down() -> void:
 
 
 func _on_stop_button_down() -> void:
-	pass # Replace with function body.
+	AudioManager.stop_bgm()
 
 
 func _on_next_button_down() -> void:

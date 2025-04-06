@@ -1,10 +1,41 @@
-[gd_scene load_steps=2 format=3 uid="uid://t35ab342gcrt"]
+[gd_scene load_steps=30 format=3 uid="uid://t35ab342gcrt"]
 
 [ext_resource type="Script" path="res://audio_manager_dir/audio_manager.gd" id="1_7whaq"]
+[ext_resource type="AudioStream" uid="uid://wtdriryv3eey" path="res://music_res_dir/【ED】栞（Shiori）.mp3" id="2_mjkr3"]
+[ext_resource type="AudioStream" uid="uid://4fjlk2mgt15a" path="res://music_res_dir/【OP】壱雫空.mp3" id="3_fnc26"]
+[ext_resource type="AudioStream" uid="uid://bebmryv10f32s" path="res://music_res_dir/【TV版 插曲】Ave Mujica.mp3" id="4_gyjdt"]
+[ext_resource type="AudioStream" uid="uid://bdibaaxrmolxo" path="res://music_res_dir/【TV版 插曲】春日影 CRYCHIC ver..mp3" id="5_p8i3a"]
+[ext_resource type="AudioStream" uid="uid://cfoa285rmgdyr" path="res://music_res_dir/【TV版 插曲】春日影 MyGO!!!!! ver..mp3" id="6_s4yrx"]
+[ext_resource type="AudioStream" uid="uid://bgeofvrhhe1i0" path="res://music_res_dir/【TV版 插曲】碧天伴走.mp3" id="7_8m8uy"]
+[ext_resource type="AudioStream" uid="uid://we3u6b67hoy0" path="res://music_res_dir/【TV版 插曲】詩超絆.mp3" id="8_ymi7j"]
+[ext_resource type="AudioStream" uid="uid://bf7mmwc8f6ifo" path="res://music_res_dir/【TV版 插曲】迷星叫.mp3" id="9_y76gx"]
+[ext_resource type="AudioStream" uid="uid://f3qqqtnxandp" path="res://music_res_dir/【TV版 插曲】迷路日々（Melody）.mp3" id="10_35cbs"]
+[ext_resource type="AudioStream" uid="uid://d4gwuktlowu7n" path="res://music_res_dir/【TV版 颂乐人偶 插曲】焚音打.mp3" id="11_ihubx"]
+[ext_resource type="AudioStream" uid="uid://dkdsdwikcpdy1" path="res://music_res_dir/【TV版 颂乐人偶 插曲】聿日箋秋.mp3" id="12_qfwu8"]
+[ext_resource type="AudioStream" uid="uid://dmvlr0k3g0324" path="res://music_res_dir/【TV版未使用1专】一同歌唱一同奏响.mp3" id="13_yoqg1"]
+[ext_resource type="AudioStream" uid="uid://cpklv88nmbulv" path="res://music_res_dir/【TV版未使用1专】無路矢.mp3" id="14_0wnba"]
+[ext_resource type="AudioStream" uid="uid://blqm6yyuduo3h" path="res://music_res_dir/【TV版未使用1单】名無声.mp3" id="15_rswoe"]
+[ext_resource type="AudioStream" uid="uid://c7d8r1k2tnhm7" path="res://music_res_dir/【TV版未使用2专】夜隠染.mp3" id="16_wkw45"]
+[ext_resource type="AudioStream" uid="uid://sng04tsksv4n" path="res://music_res_dir/【TV版未使用2专】明弦音.mp3" id="17_tjbq1"]
+[ext_resource type="AudioStream" uid="uid://m4kodxw1445u" path="res://music_res_dir/【TV版未使用2单】影色舞.mp3" id="18_5yhec"]
+[ext_resource type="AudioStream" uid="uid://dlxdf2bsumyxl" path="res://music_res_dir/【TV版未使用2单】潜在表明.mp3" id="19_3o51h"]
+[ext_resource type="AudioStream" uid="uid://bk0ho5lry4nfe" path="res://music_res_dir/【TV版未使用2单】音一会.mp3" id="20_2ugl1"]
+[ext_resource type="AudioStream" uid="uid://te62frkxd8rl" path="res://music_res_dir/【TV版未使用4单】処救生.mp3" id="21_vky4v"]
+[ext_resource type="AudioStream" uid="uid://baq081pjbgrky" path="res://music_res_dir/【TV版未使用4单】回層浮.mp3" id="22_dp2ry"]
+[ext_resource type="AudioStream" uid="uid://m717thhy2jsx" path="res://music_res_dir/【TV版未使用4单】砂寸奏.mp3" id="23_7r5ct"]
+[ext_resource type="AudioStream" uid="uid://b2rguyv2d34a6" path="res://music_res_dir/【TV版未使用5单】孤壊牢.mp3" id="24_br5b7"]
+[ext_resource type="AudioStream" uid="uid://dd158shbuxabd" path="res://music_res_dir/【TV版未使用5单】端程山.mp3" id="25_p0xtk"]
+[ext_resource type="AudioStream" uid="uid://ck6s7841hl2m0" path="res://music_res_dir/【TV版未使用5单】輪符雨.mp3" id="26_5l6tg"]
+[ext_resource type="AudioStream" uid="uid://jkecotf867ty" path="res://music_res_dir/【剧场版 前篇2专】過惰幻.mp3" id="27_bn45c"]
+[ext_resource type="AudioStream" uid="uid://licb35n142nk" path="res://music_res_dir/【剧场版 后篇2专】歩拾道.mp3" id="28_7v7ie"]
+[ext_resource type="AudioStream" uid="uid://fuq055e2jh4g" path="res://music_res_dir/【崩坏学园2联动曲2专】霧周途.mp3" id="29_kpi55"]
 
 [node name="AudioManager" type="Node"]
 script = ExtResource("1_7whaq")
+bgm_list = Array[AudioStreamMP3]([ExtResource("2_mjkr3"), ExtResource("3_fnc26"), ExtResource("4_gyjdt"), ExtResource("5_p8i3a"), ExtResource("6_s4yrx"), ExtResource("7_8m8uy"), ExtResource("8_ymi7j"), ExtResource("9_y76gx"), ExtResource("10_35cbs"), ExtResource("11_ihubx"), ExtResource("12_qfwu8"), ExtResource("13_yoqg1"), ExtResource("14_0wnba"), ExtResource("15_rswoe"), ExtResource("16_wkw45"), ExtResource("17_tjbq1"), ExtResource("18_5yhec"), ExtResource("19_3o51h"), ExtResource("20_2ugl1"), ExtResource("21_vky4v"), ExtResource("22_dp2ry"), ExtResource("23_7r5ct"), ExtResource("24_br5b7"), ExtResource("25_p0xtk"), ExtResource("26_5l6tg"), ExtResource("27_bn45c"), ExtResource("28_7v7ie"), ExtResource("29_kpi55")])
 
 [node name="BGMAudio" type="AudioStreamPlayer2D" parent="."]
 
 [node name="SFXAudio" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="finished" from="BGMAudio" to="." method="_on_bgm_audio_finished"]
