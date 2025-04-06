@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bebmryv10f32s"
+path="res://.godot/imported/【TV版 插曲】Ave Mujica.mp3-2f1cc35f60e68e0c08f6362995f481b1.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/【TV版 插曲】Ave Mujica.mp3"
+dest_files=["res://.godot/imported/【TV版 插曲】Ave Mujica.mp3-2f1cc35f60e68e0c08f6362995f481b1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

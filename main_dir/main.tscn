@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfmbthwty5vvv"]
+
+[ext_resource type="Theme" uid="uid://tosart03pbwt" path="res://main_dir/new_theme.tres" id="1_6g26r"]
+[ext_resource type="Script" path="res://main_dir/main.gd" id="1_cluiy"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_cluiy")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 572.0
+offset_top = 300.0
+offset_right = 708.0
+offset_bottom = 467.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_6g26r")
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "播放音乐"
+
+[node name="Stop" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "暂停播放"
+
+[node name="Next" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "播放下一首"
+
+[node name="Rand" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "随机播放"
+
+[connection signal="button_down" from="VBoxContainer/Start" to="." method="_on_start_button_down"]
+[connection signal="button_down" from="VBoxContainer/Stop" to="." method="_on_stop_button_down"]
+[connection signal="button_down" from="VBoxContainer/Next" to="." method="_on_next_button_down"]
+[connection signal="button_down" from="VBoxContainer/Rand" to="." method="_on_rand_button_down"]

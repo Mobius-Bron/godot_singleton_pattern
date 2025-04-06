@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://we3u6b67hoy0"
+path="res://.godot/imported/【TV版 插曲】詩超絆.mp3-5d3e5c70de135252c3de3e97066e7d24.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/【TV版 插曲】詩超絆.mp3"
+dest_files=["res://.godot/imported/【TV版 插曲】詩超絆.mp3-5d3e5c70de135252c3de3e97066e7d24.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://jkecotf867ty"
+path="res://.godot/imported/【剧场版 前篇2专】過惰幻.mp3-94561495c6224226bcf4512f2dfda69a.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/【剧场版 前篇2专】過惰幻.mp3"
+dest_files=["res://.godot/imported/【剧场版 前篇2专】過惰幻.mp3-94561495c6224226bcf4512f2dfda69a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

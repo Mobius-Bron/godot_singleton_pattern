@@ -10,6 +10,20 @@ config_version=5
 
 [application]
 
-config/name="新建游戏项目"
+config/name="单例模型练习作品"
+run/main_scene="res://main_dir/main.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="res://audio_manager_dir/default_bus_layout.tres"
+
+[autoload]
+
+AudioManager="*res://audio_manager_dir/audio_manager.tscn"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720

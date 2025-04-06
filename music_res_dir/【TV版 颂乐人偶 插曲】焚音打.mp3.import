@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4gwuktlowu7n"
+path="res://.godot/imported/【TV版 颂乐人偶 插曲】焚音打.mp3-0c8dceb2a28fa358e7ef985407c2e230.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/【TV版 颂乐人偶 插曲】焚音打.mp3"
+dest_files=["res://.godot/imported/【TV版 颂乐人偶 插曲】焚音打.mp3-0c8dceb2a28fa358e7ef985407c2e230.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
