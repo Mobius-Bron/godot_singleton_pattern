@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cfoa285rmgdyr"
+path="res://.godot/imported/【TV版 插曲】春日影 MyGO!!!!! ver..mp3-aa263a6cd9de49670951356e5e41a79e.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/mygo_bgm/【TV版 插曲】春日影 MyGO!!!!! ver..mp3"
+dest_files=["res://.godot/imported/【TV版 插曲】春日影 MyGO!!!!! ver..mp3-aa263a6cd9de49670951356e5e41a79e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

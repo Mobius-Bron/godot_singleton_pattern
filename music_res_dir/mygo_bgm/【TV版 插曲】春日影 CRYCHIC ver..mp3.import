@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdibaaxrmolxo"
+path="res://.godot/imported/【TV版 插曲】春日影 CRYCHIC ver..mp3-b27a65970c0e9dc993b66b3a7a662c3e.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/mygo_bgm/【TV版 插曲】春日影 CRYCHIC ver..mp3"
+dest_files=["res://.godot/imported/【TV版 插曲】春日影 CRYCHIC ver..mp3-b27a65970c0e9dc993b66b3a7a662c3e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

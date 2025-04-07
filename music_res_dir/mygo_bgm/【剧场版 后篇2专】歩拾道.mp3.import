@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://licb35n142nk"
+path="res://.godot/imported/【剧场版 后篇2专】歩拾道.mp3-b2aa1fc7110accd9072f0b3d5eb94a76.mp3str"
+
+[deps]
+
+source_file="res://music_res_dir/mygo_bgm/【剧场版 后篇2专】歩拾道.mp3"
+dest_files=["res://.godot/imported/【剧场版 后篇2专】歩拾道.mp3-b2aa1fc7110accd9072f0b3d5eb94a76.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
